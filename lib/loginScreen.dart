@@ -1,5 +1,6 @@
 import 'package:awesome_snackbar_content/awesome_snackbar_content.dart';
 import 'package:flutter/material.dart';
+
 import 'package:animated_theme_switcher/animated_theme_switcher.dart';
 import 'package:day_night_switcher/day_night_switcher.dart';
 import 'package:flutter_tp5/MyTheme.dart';
@@ -73,7 +74,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         msgValide:
                             "Minimum huit caractères, au moins une lettre et un chiffre"),
                     ElevatedButton(
-                      child: Text("logIn"),
+                      child: Text("login"),
                       onPressed: () {
                         final snackBar;
                         formKey.currentState!.validate()
