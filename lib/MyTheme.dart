@@ -81,6 +81,7 @@ class MyTheme {
       primaryColor: PrimaryColor,
       primaryColorLight: PrimaryColorLight,
       inputDecorationTheme: InputDecorationTheme(
+          hintStyle: TextStyle(color: PrimaryColorDark),
           iconColor: PrimaryColorDark,
           labelStyle: TextStyle(color: PrimaryColorDark)),
       elevatedButtonTheme: ElevatedButtonThemeData(

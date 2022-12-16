@@ -1,5 +1,6 @@
 import 'package:awesome_snackbar_content/awesome_snackbar_content.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_tp5/MyTheme.dart';
 
 Widget inputField(String label, String hint, IconData iconData,
     TextEditingController controller,
@@ -18,6 +19,7 @@ Widget inputField(String label, String hint, IconData iconData,
         color: Colors.transparent,
         borderRadius: BorderRadius.circular(30),
         child: TextFormField(
+          style: TextStyle(color: Colors.black),
           validator: (value) {
             if (value == null || value.isEmpty) {
               return msgVide;
